@@ -21,6 +21,7 @@ class ProductToNormalize_SellerModel:
     SellerAddress : str=None
     Prices: list=None
     Shippings :list=None
+    SellerLink : list=None
 
     #region Add
     def AddPrice(self, model: ProductToNormalize_Seller_PriceModel) -> ProductToNormalize_Seller_PriceModel:
